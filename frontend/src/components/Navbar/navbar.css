@@ -1,0 +1,50 @@
+.nav-container {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.inner-container {
+  display: flex;
+  width: 85%;
+  justify-content: space-between;
+  margin: 1rem auto 0;
+  align-items: center;
+}
+
+.logo {
+  /* border: 1px solid red; */
+  font-size: 1.9rem;
+  color: #fff;
+  font-family: "Neue Helvetica Bold";
+  text-decoration: none !important;
+}
+.logo a {
+  text-decoration: none;
+  color: white;
+}
+.logo span {
+  color: #43afff;
+}
+.navBtn {
+  font-family: "Neue Helvetica Medium";
+  background: #43afff33 0% 0% no-repeat padding-box;
+  border: 1px solid #43afff;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  opacity: 1;
+  border-color: #43afff;
+  color: white;
+  padding: 0.55rem 1.1rem;
+}
+
+.hr {
+  margin-top: 1rem;
+  width: 85%;
+  margin: 0.7rem auto 0;
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}

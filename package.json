@@ -1,0 +1,22 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "A MERN full-stack job portal for candidates and Recruiters.",
+  "main": "index.js",
+  "scripts": {
+    "front": "npm start --prefix frontend",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamaljyotwal/job-portal.git"
+  },
+  "keywords": [],
+  "author": "kamal jyotwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamaljyotwal/job-portal/issues"
+  },
+  "homepage": "https://github.com/kamaljyotwal/job-portal#readme",
+  "dependencies": {}
+}
