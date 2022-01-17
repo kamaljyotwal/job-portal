@@ -1,10 +1,12 @@
 .form-con-su {
   background-color: #edf6ff;
-  height: 60vh;
   position: relative;
 }
 
 .form2 {
+  height: auto;
+  box-shadow: 0px 5px 30px 36px #557da526;
+  border-radius: 20px;
   padding: 2rem 1.5rem;
   position: absolute;
   top: -150px;
@@ -45,6 +47,7 @@
   border-radius: 5px;
   text-align: center;
   font-size: 0.95rem;
+  cursor: pointer;
 }
 
 .sec-1 .type-con .iam-type span {
@@ -69,4 +72,121 @@
   border: 1px solid #c6c6c6;
   border-radius: 5px;
   color: #303f60;
+}
+
+.sec {
+  margin-top: 0.9rem;
+}
+
+.sec label {
+  color: #303f60;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.95rem !important;
+}
+
+.sec input {
+  background-color: #e8e8e833;
+  font-size: 0.9rem;
+  padding: 10px 12px;
+  width: 100%;
+  font-family: Poppins;
+  margin-top: 3px;
+  border-radius: 5px;
+  border: 1px solid #43afff;
+}
+
+.sec input:focus {
+  outline-color: #43afff;
+}
+
+.sec input:active, .sec input:hover {
+  outline: 1px solid #43afff;
+}
+
+.sec .passInp1 {
+  width: 95%;
+}
+
+.sec .passInp2 {
+  width: 100%;
+}
+
+.sec-4 {
+  display: flex;
+}
+
+.signUp {
+  display: block;
+  color: white;
+  background-color: #43afff;
+  border: 1px solid #43afff;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.7rem 3rem;
+  margin: 2.5rem auto 1.5rem;
+  font-family: "Neue Helvetica Medium";
+}
+
+.signUp:hover {
+  cursor: pointer;
+}
+
+.last-ln {
+  text-align: center;
+  font-family: "Neue Helvetica Medium";
+}
+
+.last-ln span:first-child {
+  color: #303f60;
+  font-size: 0.95rem;
+}
+
+.last-ln a {
+  text-decoration: none;
+}
+
+.last-ln a span {
+  color: #43afff !important;
+}
+
+.incor-line {
+  width: 100%;
+  display: inline-block;
+  color: #ff0000;
+  font-size: 0.8rem;
+  text-align: right;
+  padding-top: 4px;
+  font-family: "Neue Helvetica Medium";
+  visibility: hidden;
+}
+
+.sec-3 {
+  margin-top: 0.2rem;
+}
+
+.sec-4 {
+  margin-top: 0.2rem;
+}
+
+.sec-5 {
+  margin-top: 0.2rem;
+}
+
+#error-styling-input-border {
+  border: 1px solid #ff333380;
+}
+
+.error-styling-span-show {
+  visibility: show;
+}
+
+.role-error-span {
+  color: #ff0000;
+  display: inline-block;
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: right;
+  padding-top: 6px;
+  font-family: "Neue Helvetica Medium";
+  visibility: hidden;
 }

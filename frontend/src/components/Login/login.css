@@ -29,7 +29,7 @@
 .form-con .form label {
   color: #303f60;
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-size: 1.2rem !important;
+  font-size: 1.1rem !important;
 }
 
 .form-con .form input {
@@ -69,19 +69,20 @@
 
 .form-con .form .input-grp2 .forgot-flex p:hover {
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .form-con .form .incor-line {
   color: #ff0000;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   text-align: right;
   padding-top: 4px;
   height: 20px;
+  font-family: "Neue Helvetica Medium";
+  visibility: visible;
 }
 
 .form-con .form .incor-line p {
-  display: none;
+  margin-top: 4px;
 }
 
 .form-con .form button {
@@ -94,6 +95,14 @@
   padding: 0.7rem 3rem;
   margin: 1rem auto 1.5rem;
   font-family: "Neue Helvetica Medium";
+  cursor: pointer;
+}
+
+.form-con .form button:disabled {
+  cursor: not-allowed;
+  background-color: #4b647c;
+  border: 1px solid #4b647c;
+  color: white;
 }
 
 .form-con .form .last-ln {

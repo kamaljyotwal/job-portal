@@ -4,7 +4,6 @@
   left: 0;
   right: 0;
 }
-
 .inner-container {
   display: flex;
   width: 85%;
@@ -12,7 +11,6 @@
   margin: 1rem auto 0;
   align-items: center;
 }
-
 .logo {
   /* border: 1px solid red; */
   font-size: 1.9rem;
@@ -20,16 +18,13 @@
   font-family: "Neue Helvetica Bold";
   text-decoration: none !important;
 }
-
 .logo a {
   text-decoration: none;
   color: white;
 }
-
 .logo span {
   color: #43afff;
 }
-
 .navBtn {
   font-family: "Neue Helvetica Medium";
   background: #43afff33 0% 0% no-repeat padding-box;
@@ -40,11 +35,11 @@
   border-color: #43afff;
   color: white;
   padding: 0.55rem 1.1rem;
-}
 
-.navBtn:hover {
-  cursor: pointer;
-  box-shadow: 0 0 4px 0px #41acfd;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 4px 0px #41acfd;
+  }
 }
 
 .hr {
